@@ -4,7 +4,8 @@
   "description": "trabajando con asincronismo",
   "main": "index.js",
   "scripts": {
-    "callback": "node ./callback/index.js"
+    "callback": "node ./callback/index.js",
+    "challenge": "node ./callback/challenge.js"
   },
   "keywords": [
     "callback",
@@ -12,5 +13,8 @@
     "async"
   ],
   "author": "JoseRivera",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
