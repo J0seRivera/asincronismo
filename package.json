@@ -1,0 +1,20 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "trabajando con asincronismo",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node ./callback/index.js",
+    "challenge": "node ./callback/challenge.js"
+  },
+  "keywords": [
+    "callback",
+    "promise",
+    "async"
+  ],
+  "author": "JoseRivera",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
